@@ -1,14 +1,17 @@
 
 
 body {
-    background-image: url("../images/img11.jpg");
-    background: rgba(0, 0, 0, .35) url("../images/img11.jpg");
+    background-image: url("../images/img12.jpg");
+    background: rgba(0, 0, 0, 0.4) url("../images/img12.jpg") no-repeat center center fixed;
     background-blend-mode: darken;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    color: rgb(160, 200, 250);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: rgb(30, 20, 20);
+    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.4), 1px -1px 0 rgba(255, 255, 255, 0.4), -1px 1px 0 rgba(255, 255, 255, 0.4), 1px 1px 0 rgba(255, 255, 255, 0.4);
 }
 
 .center {
